@@ -90,7 +90,7 @@ class App extends Component {
                 className="form-input"
                 type="text"
                 value={this.state.values}
-                placeholder="Enter text"
+                placeholder="Start typing here..."
                 onChange={this.handleChange}
               />
             </Col>
