@@ -19,10 +19,22 @@
 }
 
 .form-label {
-  margin-top: 8px;
+  margin-top: 5px;
   font-weight: bold;
 }
 
 .form-input {
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .form-label {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .form-label {
+    margin-top: 5px;
+  }
 }

@@ -12,7 +12,6 @@ import {
   Col
 } from 'react-bootstrap';
 import Select from 'react-select';
-import keys from './config/keys.js';
 import DisplayTable from './DisplayTable';
 import DisplayChart from './DisplayChart';
 import DisplayJSON from './DisplayJSON';
@@ -95,6 +94,7 @@ class App extends Component {
                 onChange={this.handleChange}
               />
             </Col>
+            <Col md={1} />
           </Row>
           <DisplayTable data={this.state.data} />
           <DisplayChart data={this.state.data} />
